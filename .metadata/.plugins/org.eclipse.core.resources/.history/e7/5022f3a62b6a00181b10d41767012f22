@@ -1,0 +1,15 @@
+package com.yiibai.tutorial.javabasic.javastructure;
+
+import com.yiibai.tutorial.javabasic.test.Student;
+
+public class FieldSampleTest extends Student {
+	 FieldSampleTest(int rollno, String name, String course) {
+		super(rollno, name, course);
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		FieldSampleTest fieldSampleTest=new FieldSampleTest(111, "ankit", "java");
+		fieldSampleTest.display();
+	 }
+}

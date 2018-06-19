@@ -1,0 +1,7 @@
+package com.yiibai.tutorial.javabasic.test;
+
+public class StudentTest {
+	 public static void main(String args[]) {
+	        Bike8 b1 = new Bike8();
+	    }
+}

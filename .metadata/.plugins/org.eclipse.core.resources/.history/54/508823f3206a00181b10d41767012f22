@@ -1,0 +1,9 @@
+package com.yiibai.tutorial.javabasic.javastructure;
+
+public class FieldSampleTest {
+	 public static void main(String[] args) {
+		 FieldSample obj=new FieldSample("test");
+		 FieldSample.MY_STATIC_FIELD=60;
+		 System.out.println(Integer.toString(FieldSample.MY_STATIC_FIELD));
+	 }
+}

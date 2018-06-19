@@ -1,0 +1,15 @@
+package com.yiibai.tutorial.javabasic.test;
+
+import com.yiibai.tutorial.javabasic.javastructure.FieldSample;
+
+public class StudentTest {
+	 public static void main(String args[]) {
+		   int arr[] = { 4, 4, 5 };
+
+	        Class c = arr.getClass();
+	        String name = c.getName();
+
+	        System.out.println(name);
+
+	    }
+}

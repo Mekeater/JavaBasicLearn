@@ -1,0 +1,8 @@
+package com.yiibai.tutorial.javabasic.test;
+
+public class StudentTest {
+	 public static void main(String[] args) {
+		 Student student=new Student(112, "sumit", "java", 6000f);
+		 student.display();
+	 }
+}

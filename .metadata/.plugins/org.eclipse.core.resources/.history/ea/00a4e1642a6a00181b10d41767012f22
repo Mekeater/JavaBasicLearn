@@ -1,0 +1,9 @@
+package com.yiibai.tutorial.javabasic.javastructure;
+
+import com.yiibai.tutorial.javabasic.test.Student;
+
+public class FieldSampleTest {
+	 public static void main(String[] args) {
+		
+	 }
+}

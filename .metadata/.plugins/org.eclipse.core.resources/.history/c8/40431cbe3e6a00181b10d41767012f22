@@ -1,0 +1,11 @@
+package com.yiibai.tutorial.javabasic.test;
+
+import com.yiibai.tutorial.javabasic.javastructure.FieldSample;
+
+public class StudentTest {
+	 public static void main(String args[]) {
+		 int a = 20;
+		 Integer integer=Integer.valueOf(a);
+		 System.out.println(integer);
+	    }
+}

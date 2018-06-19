@@ -1,0 +1,10 @@
+package com.yiibai.tutorial.javabasic.variable;
+
+import com.yiibai.tutorial.javabasic.test.Student;
+
+public class VariableExample1 {
+	 public static void main(String[] args) {
+		 Student student=new Student(1, "hh", "eee");
+		 student.display();
+	 }
+}

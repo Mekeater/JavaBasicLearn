@@ -1,0 +1,25 @@
+package com.yiibai.tutorial.javabasic.test;
+
+public class Student {
+	    int rollno;
+	    String name, course;
+	    float fee;
+
+	   public Student(int rollno, String name, String course) {
+	        this.rollno = rollno;
+	        this.name = name;
+	        this.course = course;
+	    }
+
+	   public Student(int rollno, String name, String course, float fee) {
+	    	this(rollno, name, course);// C.T.Error
+	    	this.fee = fee;
+	    }
+
+	   public void display() {
+	        System.out.println(rollno + " " + name + " " + course + " " + fee);
+	    }
+	   public void eat() {
+	        System.out.println("eating...");
+	    }
+}

@@ -1,0 +1,12 @@
+package com.yiibai.tutorial.javabasic.test;
+
+public class OperatorExample {
+	public static void main(String args[]){  
+		    short a = 10;
+	        short b = 10;
+	        // a+=b;//a=a+b internally so fine
+	        a = a + b;// 编译时错误，因为 10+10=20 现在是 int 类型
+	        System.out.println(a);
+	     
+	}
+}
